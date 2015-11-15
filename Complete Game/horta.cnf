@@ -1,0 +1,86 @@
+pacman v1
+nb_players  4
+nb_rounds 1200
+nb_ghosts   3
+regen_time 45
+power_time 50
+pn_dot      1
+pn_pill     5
+pn_bonus   10
+pn_ghost   50
+pn_pacman 100
+cage 26 27
+rows 52
+cols 56
+names ? ? ? ?
+round 0
+X.XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+X*........#........#*.......B.......*#.#.....X........*X
+X..XXXXXX.X........X.................X.X.....X..XXXXXX.X
+X.......X.X........X.................X.X..X..X..X......X
+XX##XX..X.X........X.................X.XX.X.....X......X
+X....X..X.X..X##X..X......XX.XX......X..X.X.XX##X..X...X
+X....X..X.X..X..X..X......XB.BX......X..X.X....BX..X...X
+X....X..X.X..X..X..XB.....#.M.#.....BX..X.X..X..X..X...X
+X.X..X..X.X..X..X..X......X*C*X......X..X.X..X..X..X#X.X
+X.X..X..X.X..X..X..X......XX#XX......X..X.X..X..X..X*X.X
+X.X..X..X.X..X..X..X.................X....X..X..X..X.X.X
+X.X..X..X.X..X..X..X.................X....X..X..X..X.X.X
+X.X..X..XBX..X..X..X.................#....#..#..#..#.#.X
+X.#..#..#.#..#..#....................XXX#XX..X..X..X.X.X
+X.X..X..X.X..X..X*..........B.......*X....X..X..X..X.X.X
+X.X..X..X.X..X..XXXXXX##XXXXXXXXXXXX#X..XXX..X..X..X.X.X
+X.X..X..X.X..X....X..........X.......X..X....X..X..X.X.X
+X.X..X..X.X..X*...#..........X.......X..X...*X..X..X.X.X
+X.X..X..X.X..X#X..#....XX.XXXXXX.....#..#..XXX..X..X.X.X
+X.X..X..X.X....X..X...XX..X..........X..X..X....X..X...X
+X.X..X..X.X*...X..X..XX...X..........X..X..X...*X..X#X.X
+X.X.....X.X##X.X..XXXX..XXX..XXXX###XX..X..X.XXXX..X...X
+X.X.....X....X.X........X......X........X..X.X.....X...X
+X.X....BX*...X.X*.....X....C...........*X..X.X...X#X...X
+X.X..XXXX#XX.X.XXX##XXX.XX###XX.XXX#XXX#X..X.X...XBX.X#X
+XBX.......X..X.X......X.X*---*X..X...X.....X.X...X.X.X.X
+X#XXXXXX..X..X.X........#--M--#......X..X##X.X...X.X.X.X
+X*.....X..X..X.X..X.....X*---*X......X..X..X.X...X.X.X.X
+X......X..X..X.X..X...X.XX###XX..X...#..#..#.#...#.#.#.X
+X.XXXX.X..X..X.X..X..XX.........XXXX.X..X..X.X...X.X.X.X
+X....X.X..#..#.#.....X...........XBX.#..X..X.X...X.X.X.X
+X....#.#..X..X.X.....X..XXX**XXX...X.X..X..#.#...#*#.#.X
+X.X..X.X..X..X.X.....X...X....X....X.X##X..X.X...X.X.X.X
+X.X..X.X..X..X.X.........X....X....#.......X.X...X.X.X.X
+X.X..X.X..X..X.X*........X....X....X......*X.X...X.X.X.X
+X....X.X..X..X.XXXX###XXXX...XXXX..XXX###XXX.X...X.X.X.X
+X....X.X..X..X...............................X...X.X.X.X
+X....#.#..#..X..............................BX...X.X.X.X
+X....X.X..X.XXXXXXXXX##XXXXXXXXXXXXX##XXXXXXXXX..#.#.#.X
+X....X.X..#.................*X*..................X.X.X.X
+X....X.X..X..................#...................X.X.X.X
+X....X.X..X.XXXXXXXXX##XXXX..X..XXXX##XXXXXXXXXXXX.X.X.X
+X....#*#..#.....................................B#.X.X.X
+X....X....XB...................X#XXXXXXXXXXXXXXXXX.X.X.X
+X....XB...XXXXXXXXXXXXXXXXXXXX#X.................X.X.X.X
+X....X##X........................................X.X.X.X
+X.......X..XXXXXXXXXXXXXXXX#XXX#XXXXXXXXXXXXXXX..X.X.X.X
+X.......X....................X...................X.X#X.X
+X.......XB...................X..X...............BX.X...X
+X.......X##XXXXXXXXXXXXXXXX..X..X.XXXXXXXXXXXXX##X.X...X
+.*..............................#.....................*.
+X.XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+score 0 0 0 0
+status 0 0 0 0
+pacman 46 4 0 a
+ghost 25 27 0 a
+ghost 26 25 0 a
+ghost 27 25 0 a
+pacman 47 5 0 a 
+ghost 25 26 0 a
+ghost 26 26 0 a
+ghost 27 26 0 a
+pacman 48 6 0 a
+ghost 25 28 0 a
+ghost 26 28 0 a
+ghost 27 28 0 a
+pacman 49 7 0 a 
+ghost 25 29 0 a
+ghost 26 29 0 a
+ghost 27 27 0 a

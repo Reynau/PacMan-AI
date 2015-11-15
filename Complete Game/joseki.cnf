@@ -1,0 +1,63 @@
+pacman v1
+nb_players 4
+nb_rounds 600
+nb_ghosts 4
+regen_time 60
+power_time 60
+pn_dot      1
+pn_pill     5
+pn_bonus   10
+pn_ghost   50
+pn_pacman 100
+cage 2 28
+rows 25
+cols 55
+names ? ? ? ?
+round 0
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+X*....................*X-------X*....................*X
+X.X.X.X.X.X..X.X.X.X.X.X-------X.X.X.X.X.X..X.X.X.X.X.X
+X.X.X.X.X.X..X.X.X.X.X.X-------X.X.X.X.X.X..X.X.X.X.X.X
+X.X.X.X.X.X..X.X.X.X.X.X-------X.X.X.X.X.X..X.X.X.X.X.X
+.......................X-------X.......................
+X.XXXXXXXXXX.XXXXXXXXX.X---C---X.XXXXXXXXXX.XXXXXXXXX.X
+X.XBBBBBBBBX.XBBBBBBBX.X-------X.XBBBBBBBBX.XBBBBBBBX.X
+X.XXXXXXXXXX.XXXXXXXXX.X..X.X..X.XXXXXXXXXX.XXXXXXXXX.X
+X......................X..X.X..X......................X
+X.XXXXXXX.X.XXXXXXXX.X.X..X.X..X.X.XXXXXXX.X.XXXXXXXX.X
+X....X....X....X.....X....X*X....X....X....X....X.....X
+X.XXXXXXX.X.XXXXXXXX.X.X..X.X..X.X.XXXXXXX.X.XXXXXXXX.X
+X....................X.X..X.X..X.X....................X
+X.X.X.XXX.XXXXXX.XXX.X.X..X.X..X.X.XXX.XXXXXX.XXX.X.X.X
+X.X.X.X*..........BX.X.X..X.X..X.X.XB..........*X.X.X.X
+X.X.X.XXXXXX.XXXXXXX.X....X.X....X.XXXXXXX.XXXXXX.X.X.X
+X....................XXXX.X.X.XXXX....................X
+X.XXXXXXXX.XXXXXXXXX.X...........X.XXXXXXXX.XXXXXXXXX.X
+X.X................X.X.X.XXXXX.X.X.X................X.X
+X.X.XXXXXX*XXXXXXX.X.X.X.X...X.X.X.X.XXXXXX*XXXXXXXXX.X
+X.X................X.X.X.X.M.X.X.X.X................X.X
+X.XXXXXXXX.XXXXXXXXX.X.X.......X.X.XXXXXXXX.XXXXXXXXX.X
+X......................X.X...X.X......................X
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+score 0 0 0 0
+status 0 0 0 0
+pacman 23 9 0 a
+ghost 1 26 0 a
+ghost 2 26 0 a
+ghost 3 26 0 a
+ghost 4 26 0 a
+pacman 23 11 0 a 
+ghost 1 25 0 a
+ghost 2 25 0 a
+ghost 3 25 0 a
+ghost 4 25 0 a
+pacman 23 42 0 a
+ghost 1 29 0 a
+ghost 2 29 0 a
+ghost 3 29 0 a
+ghost 4 29 0 a
+pacman 23 44 0 a 
+ghost 1 28 0 a
+ghost 2 28 0 a
+ghost 3 28 0 a
+ghost 4 28 0 a

@@ -1,0 +1,63 @@
+pacman v1
+nb_players 4
+nb_rounds 600
+nb_ghosts 3
+regen_time 60
+power_time 60
+pn_dot      1
+pn_pill     5
+pn_bonus   10
+pn_ghost   50
+pn_pacman 100
+cage 14 29
+rows 29
+cols 59
+names ? ? ? ?
+round 0
+XXXXXXXXXXXXXXXXXXXXXXX.XXXXXXXXXXX.XXXXXXXXXXXXXXXXXXXXXXX
+X...........................*#*...........................X
+X.X.X.XXXXXXX.X.XXXXXXX.X.XXXXXXX.X.XXXXXXX.X.XXXXXXX.X.X.X
+X.X.X....X....X....X....X....X....X....X....X....X....X.X.X
+X.X.X.XXXXXXX.X.XXXXXXX.X.XXXXXXX.X.XXXXXXX.X.XXXXXXX.X.X.X
+X.........................................................X
+X.X.X.X.X.X.XXXXXX.X.XXXX.X..X..X.XXXX.X.XXXXXX.X.X.X.X.X.X
+X.XBX...X.X......X.X......X.....X......X.X......X.X...XBX.X
+X.X.X.X.X.XXXXXXXX.XXXXXXXX.X.X.XXXXXXXX.XXXXXXXX.X.X.X.X.X
+X.X.X.X.X...X.X...........*.X.X.*...........X.X...X.X.X.X-X
+X.X.X.X.X...X.X...XX.XXX.....C.....XXX.XX...X.X...X.X.X.X.X
+X*.................X.....XX#####XX.....X.................*X
+XXXX.XXXX.XXXXXXXX.XXXXX.X-------X.XXXXX.XXXXXXXX.XXXX.XXXX
+........X*XM.............#-------#.............MX*X........
+XXXX.XXXX.XXXXXXXX.XXXXX.X-------X.XXXXX.XXXXXXXX.XXXX.XXXX
+X*.......................XX#####XX.......................*X
+X.XX..XX..XX..XX..XX..XX.....C.....XX..XX..XX..XX..XX..XX.X
+X..XX..XX..XX..XX..XX..XX....X....XX..XX..XX..XX..XX..XX..X
+X...XX..XX..XX..XX..XX..XX...X...XX..XX..XX..XX..XX..XX...X
+X....XX..XX..XX..XX..XX..XX..X..XX..XX..XX..XX..XX..XX....X
+X.....XX.BXX.BXX.BXX.BXX.BXX...XXB.XXB.XXB.XXB.XXB.XX.....X
+X..*...XXMMXXMMXXMMXXMMXXMMXXMXXMMXXMMXXMMXXMMXXMMXX...*..X
+X.....XX.BXX.BXX.BXX.BXX.BXX...XXB.XXB.XXB.XXB.XXB.XX.....X
+X....XX..XX..XX..XX..XX..XX..X..XX..XX..XX..XX..XX..XX....X
+X...XX..XX..XX..XX..XX..XX...X...XX..XX..XX..XX..XX..XX...X
+X..XX..XX..XX..XX..XX..XX....X....XX..XX..XX..XX..XX..XX..X
+X.XX..XX..XX..XX..XX..XX.....X.....XX..XX..XX..XX..XX..XX.X
+X...........................*#*...........................X
+XXXXXXXXXXXXXXXXXXXXXXX.XXXXXXXXXXX.XXXXXXXXXXXXXXXXXXXXXXX
+score 0 0 0 0
+status 0 0 0 0
+pacman 1 1 0 a
+ghost 12 26 0 a
+ghost 13 26 0 a
+ghost 14 26 0 a
+pacman 27 57 0 a 
+ghost 12 28 0 a
+ghost 13 28 0 a
+ghost 14 28 0 a
+pacman 27 1 0 a
+ghost 12 30 0 a
+ghost 13 30 0 a
+ghost 14 30 0 a
+pacman 1 57 0 a 
+ghost 12 32 0 a
+ghost 13 32 0 a
+ghost 14 32 0 a

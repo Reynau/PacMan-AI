@@ -1,0 +1,38 @@
+AIDemo.o: AIDemo.cc Player.hh Utils.hh BackTrace.hh PosDir.hh Board.hh \
+ Action.hh Registry.hh
+AINull.o: AINull.cc Player.hh Utils.hh BackTrace.hh PosDir.hh Board.hh \
+ Action.hh Registry.hh
+Action.o: Action.cc Action.hh Utils.hh BackTrace.hh PosDir.hh Board.hh
+BackTrace.o: BackTrace.cc BackTrace.hh
+Board.o: Board.cc Board.hh Utils.hh BackTrace.hh PosDir.hh Action.hh
+FreshPrince.o: FreshPrince.cc Player.hh Utils.hh BackTrace.hh PosDir.hh \
+ Board.hh Action.hh Registry.hh
+FreshPrinceR1.o: FreshPrinceR1.cc Player.hh Utils.hh BackTrace.hh \
+ PosDir.hh Board.hh Action.hh Registry.hh
+FreshPrinceR3.o: FreshPrinceR3.cc Player.hh Utils.hh BackTrace.hh \
+ PosDir.hh Board.hh Action.hh Registry.hh
+FreshPrinceR4.o: FreshPrinceR4.cc Player.hh Utils.hh BackTrace.hh \
+ PosDir.hh Board.hh Action.hh Registry.hh
+FreshPrinceR5.o: FreshPrinceR5.cc Player.hh Utils.hh BackTrace.hh \
+ PosDir.hh Board.hh Action.hh Registry.hh
+FreshPrinceR6.o: FreshPrinceR6.cc Player.hh Utils.hh BackTrace.hh \
+ PosDir.hh Board.hh Action.hh Registry.hh
+FreshPrinceR7.o: FreshPrinceR7.cc Player.hh Utils.hh BackTrace.hh \
+ PosDir.hh Board.hh Action.hh Registry.hh
+FreshPrinceR71.o: FreshPrinceR71.cc Player.hh Utils.hh BackTrace.hh \
+ PosDir.hh Board.hh Action.hh Registry.hh
+FreshPrinceR8.o: FreshPrinceR8.cc Player.hh Utils.hh BackTrace.hh \
+ PosDir.hh Board.hh Action.hh Registry.hh
+FreshPrinceR9.o: FreshPrinceR9.cc Player.hh Utils.hh BackTrace.hh \
+ PosDir.hh Board.hh Action.hh Registry.hh
+FreshTonto.o: FreshTonto.cc Player.hh Utils.hh BackTrace.hh PosDir.hh \
+ Board.hh Action.hh Registry.hh
+Game.o: Game.cc Game.hh Utils.hh BackTrace.hh PosDir.hh Board.hh \
+ Action.hh Player.hh Registry.hh
+Main.o: Main.cc Game.hh Utils.hh BackTrace.hh PosDir.hh Board.hh \
+ Action.hh Player.hh Registry.hh
+Player.o: Player.cc Player.hh Utils.hh BackTrace.hh PosDir.hh Board.hh \
+ Action.hh Registry.hh
+PosDir.o: PosDir.cc PosDir.hh Utils.hh BackTrace.hh
+Registry.o: Registry.cc Registry.hh Utils.hh BackTrace.hh
+Utils.o: Utils.cc Utils.hh BackTrace.hh

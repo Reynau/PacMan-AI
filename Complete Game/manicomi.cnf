@@ -1,0 +1,63 @@
+pacman v1
+nb_players 4
+nb_rounds 600
+nb_ghosts 3
+regen_time 60
+power_time 60
+pn_dot      1
+pn_pill     5
+pn_bonus   10
+pn_ghost   50
+pn_pacman 100
+cage 23 29
+rows 29
+cols 59
+names ? ? ? ?
+round 0
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+X---------------------------------------------------------X
+X-XXXXXXXXXXXXXXXXXXXXXXXXXXX-XXXXXXXXXXXXXXXXXXXXXXXXXXX-X
+X-X*--------------------------XB--------------------------X
+X-X-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-X
+X-X-X*-------------------------------------------------*X-X
+X-X-X-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-X-X
+X-X-X-X*---------------------------------------------*X-X-X
+X-X-X-X-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-X-X-X
+X-X-X-X-X*-------------------C---------------------*X-X-X-X
+X-X-X-X-X-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-X-X-X-X
+X-X-X-X-X-XMBBBBBBBBBBBBBBBBBCBBBBBBBBBBBBBBBBBBBBX-X-X-X-X
+X-X-X-X-X-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-X-X-X-X-X
+X-X-X-X-X*-------------------C-------------------*X-X-X-X-X
+X-X-X-X-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-X-X-X-X
+X-X-X-X*-------------------------------------------*X-X-X-X
+X-X-X-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-X-X-X
+X-X-X*-----------------------------------------------*X-X-X
+X-X-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-X-X
+XCX*---------------------------------------------------*XBX
+XXXXXXXXXXXXXXXXXXXXXXXXX#########XXXXXXXXXXXXXXXXXXXXXXXXX
+X*.......................................................*X
+X*.......................XX#####XX.......................*X
+XXXXXXXXX.XXXXXXXX.XXXXX.X.......X.XXXXX.XXXXXXXX.XXXXXXXXX
+*........*........B......#.......#......B........*........*
+XXXXXXXXX.XXXXXXXX.XXXXX.X.......X.XXXXX.XXXXXXXX.XXXXXXXXX
+X................X.X...X.XX#####XX.X...X.X................X
+X.........................................................X
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+score 0 0 0 0
+status 0 0 0 0
+pacman 26 1 0 a
+ghost 25 26 0 a
+ghost 23 26 0 a
+ghost 24 26 0 a
+pacman 27 1 0 a 
+ghost 25 28 0 a
+ghost 23 28 0 a
+ghost 24 28 0 a
+pacman 26 57 0 a
+ghost 25 30 0 a
+ghost 23 30 0 a
+ghost 24 30 0 a
+pacman 27 57 0 a 
+ghost 25 32 0 a
+ghost 23 32 0 a
+ghost 24 32 0 a

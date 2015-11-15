@@ -1,0 +1,28 @@
+pacman v1
+nb_players 2
+nb_rounds 20
+nb_ghosts 1
+regen_time 10
+power_time 12
+pn_dot      1
+pn_pill     5
+pn_bonus   10
+pn_ghost   50
+pn_pacman 100
+cage 2 2
+rows 6
+cols 6
+names ? ?
+round 0
+XXXXXX
+......
+X...*X
+X....X
+X....X
+XXXXXX
+score   0 0
+status  0 0
+pacman  1 1 0 a
+ghost   4 1 0 a
+pacman  1 4 0 a
+ghost   4 4 0 a

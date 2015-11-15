@@ -1,0 +1,114 @@
+<html>
+
+
+<head>
+
+    <title>PacMan</title>
+
+    <link type='text/css' href='css/ui-lightness/jquery-ui-1.8.18.custom.css' rel='Stylesheet' />
+
+    <style>
+
+        body, td {
+            font-family: sans;
+            font-size: 12pt;
+            background-color: black;
+            color: white;
+            width:  100%;
+            height: 100%;
+            margin: 0px;
+            overflow:hidden; 
+        }
+
+    </style>
+
+
+</head>
+
+<body>
+    <div id='debug'>
+        debug
+    </div>
+
+
+    <center>
+    <div id='all'>
+
+    <br/>
+
+    <table>
+        <tr>
+            <td style='width: 40px;'></td>
+            <td>
+
+                <div>
+                    <img id='but_play'    title="Play (space)"  src='img/but_play.svg'      height='32' width='32' onclick='playButton();' />
+                    <img id='but_pause'   title="Pause (space)"    src='img/but_pause.svg'     height='32' width='32' onclick='pauseButton();'/>
+                    <img id='but_start'   title="Go to start (start)"     src='img/but_start.svg'      height='32' width='32' onclick='startButton();' />
+                    <img id='but_end'     title="Go to end (end)"  src='img/but_end.svg'      height='32' width='32' onclick='endButton();' />
+                    <img id='but_anim' title="Toggle animation"  src='img/but_refresh.svg'   height='32' width='32' onclick='animButton();' />
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                    <img id='but_anim' title="Close window"  src='img/but_close.svg'   height='32' width='32' onclick='closeButton();' />
+                </div>
+
+                <br/>
+
+                <div id='slider'>
+                </div>
+
+                <br/>
+
+                <div id='round'>
+                </div>
+
+                <br/>
+
+            </td>
+            <td>
+
+                <div id='scoreBoard'>
+                </div>
+
+            </td>
+            <td style='width: 40px;'></td>
+        </tr>
+
+
+        <tr>
+            <td colspan='4'>
+                <canvas id='myCanvas'>
+                    <p>Your browser does not support the HTML canvas element. Please use a newer browser.</p>
+                </canvas>
+                <div id='loading'>
+                    <p>
+                        Please wait, loading game.
+                    </p>
+                    <p>
+                        Press H for help.
+                    </p>
+                </div>
+        </td>
+        </tr>
+
+    </table>
+
+
+    </div>
+    </center>
+
+</body>
+
+
+<script type='text/javascript' src='js/jquery-1.7.1.min.js'></script>
+
+<script type='text/javascript' src='js/jquery-ui-1.8.18.custom.min.js'></script>
+
+<script type='text/javascript' src='./viewer.js' ></script>
+
+<script type='text/javascript'>
+    $(document).ready(function() {
+        init();
+    });
+</script>
+
+</html>
